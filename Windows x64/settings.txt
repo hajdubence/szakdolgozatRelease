@@ -1,0 +1,34 @@
+# DisplayMode: simple / advanced
+DisplayMode=advanced
+
+# IOMode: in / out / inout
+# in: Reads the input file and displays its content. Interactions are ignored.
+# out: Displays an empty grid. Interactions are displayed and are written to output file.
+# inout: Reads the input file and displays its content. Interactions are written to output file.
+IOMode=inout
+
+
+
+# Binary input file name
+# The file only contains the RGB color information of the points, therfore every point is 3 byte.
+# The order of axies is XYZ.
+InputFileName=input.bin
+
+# Plain text output file name
+# Every line in the text file represents one interaction from the user.
+# The lines are in the following format: T X Y Z R G B
+# where T is the unix timestamp
+# X Y Z are the coordinates
+# R G B are the color values
+OutputFileName=output.txt
+
+
+
+# GridSizeX: horizontal axes
+GridSizeX=6
+
+# GridSizeY: vertical axes
+GridSizeY=6
+
+# GridSizeZ: depth axes
+GridSizeZ=6
