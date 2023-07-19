@@ -23,3 +23,8 @@
 - output.txt-> Producer -> input.bin
 - A figyeli az előző program kimenetét és ez alpján készíti el a bemenetet.
 - Lecserélhető tetszőleges saját programra.
+
+
+## Képernyőkép
+
+![Képernyőkép 2023-07-19 105445](https://github.com/hajdubence/szakdolgozatRelease/assets/63264564/a48b9ac7-6e94-4073-a40a-3393adb368c5)
